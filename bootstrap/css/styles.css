@@ -1,0 +1,166 @@
+/*-----Header-----*/
+header{
+	background-color:black;
+	text-align:center;
+	margin-bottom: 31px;
+}
+
+.navbar{
+	background-color:black !important; 
+	margin: 32px 0 0 0; 
+	padding:0; }
+
+ul{
+	margin: 57px 0 0 87px;}
+
+nav a{
+	color:white;font-size:.9em;
+	margin-right: 16px;
+}
+
+#biopicholder{
+	width:135px;
+	height:152px;
+	position:relative;
+	display:inline-block;
+	float:left;
+	margin: -10px 0 0 -27px;
+}
+
+#biopic{
+	background-image:url('../images/samantha-jones.jpg');
+	width:135px;
+	height:152px;
+	position:absolute;
+	top:0;
+}
+
+header div.container{
+	margin-top:-10px;
+}
+
+h1{
+	font-family:'Droid Serif', serif;
+	font-size:2.65em !important;
+	color:#a40606 !important;
+	display:inline-block;
+	vertical-align:bottom;
+	float:left;
+	margin: 45px 0 -7px 61px;
+}
+
+/*-----Body-----*/
+#wrapper{
+	background-image:url('../images/winter-scene-web.jpg');
+}
+
+h2{
+	margin-top:17px;
+}
+
+#novelpicholder{
+	width:301px;
+	height:405px;
+	position:relative;
+	float:left;
+	margin: 1px 10px 19px 0;
+	/* margin-bottom: 10px; */
+}
+
+#novelpic{
+	background-image:url(../images/book.jpg);
+	width:301px;
+	height:405px;
+	position:absolute;
+	top:0;
+}
+
+.media-body{
+	color:white;
+}
+
+.container{
+	color:white;
+	border-radius:10px;
+	background-color:black;
+	margin-bottom: 30px;
+}
+
+.fa-star{
+	color:#FEFF00;
+}
+
+.fa-star-o{
+	color:#C9DFE9;
+}
+
+.container{
+	padding: 6px 20px 33px 35px;
+}
+div.container:nth-of-type(1){
+	padding: 19px 16px 0 35px;
+}
+
+div.container:nth-of-type(1) p{
+	font-size:.95em;
+	margin:11px 0 0 0;
+	line-height:1.35em;
+}
+
+.btn-primary{
+	padding: 7px;
+	margin-top:10px;
+}
+
+p{
+	font-size:.91em;
+	margin:13px 0 0 0;
+	line-height:1.35em;
+}
+
+span{
+	font-size: .96em !important;
+	}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+	#wrapper{background-image:none;}
+	h1{font-size:2.25em !important; margin-left:25px; padding-bottom:13px !important;}
+	ul{margin-left:65px;}
+
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+	#wrapper{background-image:none;}
+	header .navbar{margin-top:47px;}
+	#biopicholder{display:none;}
+	ul{margin: -72px 0 0 110px;}
+	ul a{margin-right:10px;}
+	h1{font-size: 1.75em !important;margin: -82px 0 0 -32px;}
+	div.container:nth-of-type(1){padding: 38px 10px 0 32px;}
+	div.container:nth-of-type(1) p{font-size: .9em; margin: 14px 0 19px 0;}
+	h2{font-size:1.9em; margin-top:-2px;}
+	#novelpicholder{margin-bottom:0;}
+	.btn-primary{margin: -1px 0 19px 0 ;}
+}
+
+@media screen and (max-width:767px){
+	ul{display:none;}
+	#biopicholder{display:none;}
+	#wrapper{background-image:none;}
+	#novelpicholder{display:none;}
+	.btn-primary{width:100%; margin-bottom:21px; padding: 12px}
+	div.container:nth-of-type(1){margin-top: 30px;}
+	h2{ margin-top:15px;}
+	div.container:nth-of-type(1){padding-right:20px;}
+	.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+} /* resource found at https://stackoverflow.com/questions/42586729/bootstrap-4-change-hamburger-toggler-color*/
+ header button {border:none !important;}
+	span{margin: 0 30px 0 0 ;}
+ h1{font-size:1.6em!important;margin: 1px 0 0 -100px;}
+ header{background-color: black;height: 112px;margin-top:0px;}
+ header div.container{ margin-top:-50px !important; margin-left:65px; border-left:15px solid black; border-radius:initial!important;}
+ nav ul li a{background-color:white; color:black !important; font-size:1.4em;  line-height: 1em!important; width: 530px; text-align:left; border-bottom:4px solid black; border-right:15px solid black;}
+ ul{width:100%; margin: 10px 0 0 -100px; padding-bottom:20px;}
+ nav a:hover{background-color:#555; color:#fff !important;}
+  }

@@ -1,0 +1,83 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109858772-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109858772-1');
+    </script>
+    <link rel="icon" type="image/png" href="../favicon.png">
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width" />
+	<title>Mockups</title>
+		
+	<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+	<!--[if lt IE 9]>
+    	<script>
+    		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+    		var len = elementsArray.length;
+    		for(i = 0; i < len; i++){
+    			document.createElement(elementsArray[i]);
+    		}
+    	</script>
+	<![endif]-->
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/subpage.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Megrim" rel="stylesheet">
+</head>
+<body id="mockups">
+  <header>
+      <a href="../index.html"><img src="../img/kite.png" height="60" width="60" alt="Dylan Kite Logo"></a>
+      <h2><span>Design Work:</span> Mockups</h2>
+      <a id="back" href="../index.html">< Back</a>
+  </header>
+  <div class="subpage">
+
+    <main>
+        <div id="master">
+          <div id="circle"></div>
+          <div id="screen">
+          <div id="content">
+            <img id="image" src="../img/desktop.jpg">
+          </div>
+        </div>
+          <div id="trapezoid"></div>
+          <div id="base"></div>
+        </div>
+        <div id="flexbox">
+          <p>laptop</p>
+          <p>tablet</p>
+          <p>phone</p>
+        </div>
+
+        <div id="story">
+          <h3>Real Baked Goods Mockups</h3>
+          <h4>The mission was simple enough: create a 3 bucket webpage for a local bakery, ensuring a readily usable site, but more importantly, conveying an air of professionalism and sleekness. The above mockups were the result. click through to see my designs for laptop, tablet, and mobile.</h4>
+        </div>
+
+
+    </main>
+  </div>
+    <footer>
+      <p>Dylan Kite &copy; <span id="year"></span></p>
+  </footer>
+  <script src="../js/mockups.js"></script>
+
+  <script>
+    var d = new Date();
+    var n = d.getFullYear();
+    
+    function year(){
+      document.getElementById("year").innerHTML = n;
+    }
+
+    year();
+</script>
+</body>
+</html>

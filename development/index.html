@@ -1,0 +1,72 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109858772-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109858772-1');
+    </script>
+    <link rel="icon" type="image/png" href="../favicon.png">
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width" />
+	<title>Dylan Kite's Development Projects</title>
+		
+	<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+	<!--[if lt IE 9]>
+    	<script>
+    		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+    		var len = elementsArray.length;
+    		for(i = 0; i < len; i++){
+    			document.createElement(elementsArray[i]);
+    		}
+    	</script>
+	<![endif]-->
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/subpage.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Megrim" rel="stylesheet">
+</head>
+<body id="dev">
+  <header>
+      <a href="../index.html"><img src="../img/kite.png" height="60" width="60" alt="Dylan Kite Logo"></a>
+      <h2><span>Dev Work:</span> Projects</h2>
+      <a id="back" href="../index.html">< Back</a>
+  </header>
+  <div class="subpage">
+    <main>
+
+      <div id="dev-info">
+        <h3>My Projects</h3>
+        <h4>Below are a small handful of my web projects</h4>
+        <a href="../oldsite/index.html">My inaugural design &amp; development portfolio</a>
+        <a href="../eval/index.html">A web page with an orthodox layout</a>
+        <a href="../responsive/index.html">A fully responsive page</a>
+        <a href="../bootstrap/index.html">My foray into Bootstrap</a>
+        <a href="../javascript/index.html">A page with vanilla JavaScript validation integrated</a>
+      </div>
+
+    </main>
+  </div>
+  <footer>
+      <p>Dylan Kite &copy; <span id="year"></span></p>
+  </footer>
+  <script src = '../js/jquery-3.2.1.js'></script>
+  <script src="../js/gallery.js"></script>
+
+  <script>
+    var d = new Date();
+    var n = d.getFullYear();
+    
+    function year(){
+      document.getElementById("year").innerHTML = n;
+    }
+
+    year();
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109858772-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109858772-1');
+    </script>
+    <link rel="icon" type="image/png" href="../favicon.png">
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width" />
+	<title>Graphic Design Gallery</title>
+		
+	<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+	<!--[if lt IE 9]>
+    	<script>
+    		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+    		var len = elementsArray.length;
+    		for(i = 0; i < len; i++){
+    			document.createElement(elementsArray[i]);
+    		}
+    	</script>
+	<![endif]-->
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/subpage.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Megrim" rel="stylesheet">
+</head>
+<body id="graphic">
+  <header>
+      <a href="../index.html"><img src="../img/kite.png" height="60" width="60" alt="Dylan Kite Logo"></a>
+      <h2><span>Design Work:</span> Graphic Design</h2>
+      <a id="back" href="../index.html">< Back</a>
+  </header>
+  <div class="subpage">
+    <main>
+      <div id="design-info">
+        <h3>What I can do</h3>
+        <h4>With a host of creative tools like Photoshop, Paint.net, Google Drawings, or even just a pad of paper, I'm ready to change ideas into items. I've created adorable digital drawings, crafted logos to be the face of fund raising campaigns, synthesized a year's worth of data into an infographic, and about a million other things. Graphic design isn't just a way to make money - it's my passion!</h4>
+      </div>
+         <div class="design-flexbox">
+           <div class="design-column">
+            <div class="design-holder">
+              <img src="../img/graphic/beer.jpg" alt="Beer list made by Dylan Kite">
+              <p>Cheers for Children Oktoberfest Beer List</p>
+            </div>
+
+            <div class="design-holder">
+             <img src="../img/graphic/chudnow.jpg" alt="Logo made by Dylan Kite"> 
+             <p>Chudnow Museum 1930 Chevy Resoration Campaign Logo
+            </div>
+
+            <div class="design-holder">
+              <img src="../img/graphic/summer.jpg" alt="Summer banner made by Dylan Kite">
+              <p>Start of summer Mailchimp banner</p>
+            </div>
+
+            <div class="design-holder">
+              <img src="../img/graphic/card2.jpg" alt="Card made By Dylan Kite"> 
+              <p>Bicycle Father's Day Card
+            </div>
+           </div>
+
+           <div class="design-column">
+             <div class="design-holder">
+               <img src="../img/graphic/infographic.jpg" alt="infographic made by Dylan Kite">
+               <p>Cyber Safety Program infographic</p>
+             </div>
+
+             <div class="design-holder">
+                <img src="../img/graphic/flyer2.jpg" alt="Flyer made by Dylan Kite">
+                <p>Wellness Supplies flyer - Erickson Elementary</p>
+             </div>
+
+             <div class="design-holder">
+                <img src="../img/graphic/risks.jpg" alt="Risk summary made by Dylan Kite">
+                <p>Infant safety risks graphic</p>
+             </div>
+           </div>
+           <div class="design-column">
+             <div class="design-holder">
+               <img src="../img/graphic/flyer.jpg" alt="Flyer made by Dylan Kite">
+               <p>Paper Tigers Movie Flyer</p>
+             </div>
+
+             <div class="design-holder">
+               <img src="../img/graphic/card.jpg" alt="Card made by Dylan Kite"> 
+               <p>Living World Anniversary Card</p>
+             </div>
+
+             <div class="design-holder">
+               <img src="../img/graphic/index.jpg" alt="Website mockup made by Dylan Kite">
+               <p>WACC Website Mockup</p>
+             </div>
+           </div>
+         </div>
+         <div id="clickout">
+            <span>-</span>
+           <img src="../img/beer.jpg">
+         </div>
+    </main>
+  </div>
+  <footer>
+      <p>Dylan Kite &copy; <span id="year"></span></p>
+  </footer>
+  <script src = '../js/jquery-3.2.1.js'></script>
+  <script src="../js/graphic-design.js"></script>
+
+  <script>
+    var d = new Date();
+    var n = d.getFullYear();
+    
+    function year(){
+      document.getElementById("year").innerHTML = n;
+    }
+
+    year();
+</script>
+</body>
+</html>

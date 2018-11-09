@@ -1,0 +1,112 @@
+<!doctype html> 
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109858772-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109858772-1');
+    </script>
+    <link rel="icon" type="image/png" href="../favicon.png">
+
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width" />
+	<title>Dylan's Story</title>
+		
+	<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+	<!--[if lt IE 9]>
+    	<script>
+    		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+    		var len = elementsArray.length;
+    		for(i = 0; i < len; i++){
+    			document.createElement(elementsArray[i]);
+    		}
+    	</script>
+	<![endif]-->
+  <link href="../css/main.css" rel="stylesheet">
+  <link href="../css/subpage.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Megrim" rel="stylesheet">
+</head>
+<body id="bio">
+  <header>
+      <a href="../index.html"><img src="../img/kite.png" height="60" width="60" alt="Dylan Kite Logo"></a>
+      <h2><span>The Gist:</span> Who I am</h2>
+      <a id="back" href="../index.html">< Back</a>
+  </header>
+  <div class="subpage">
+    <main>
+      <div id="intro">
+        <img src="../img/profpic.jpg" width="400" height="400" alt="Dylan Kite picture">
+        <h3>My name is Dylan. I'm a history buff, comic book nerd, artist, developer, and community worker. I'm on a mission to use my creative flair and technical skills to make folk's lives better, to leave the world better than I found it, and inspire people to learn something new. </h3>
+      </div>
+
+      <div id="timeline">
+        <div class="date-disc">
+          <h2 class="date">2013</h2>
+          <div class="bio-box">
+            <h3>Freedom School Partners</h3>
+            <h4>To combat summer loss of learning and diminish economically based educational disparity I joined a team of diverse and passionate educators - an experience that established my interest in social justice in education, kick starting what would become a rich history of working with community-facing non-profits.</h4>
+            <div class="arrow"></div>
+          </div>
+        </div>
+
+        <div class="date-disc">
+          <h2 class="date">2015</h2>
+          <div class="bio-box">
+            <h3>Graduation</h3>
+            <h4>In May of 2015 I graduated from the University of North Carolina, Chapel Hill - taking with me an unorthodox and dynamic skillset having studied history, education, and information systems.</h4>
+            <div class="arrow"></div>
+          </div>
+        </div>
+
+        <div class="date-disc">
+          <div class="bio-box">
+            <h3>AmeriCorps and Beyond</h3>
+            <h4>Having moved to Ann Arbor, MI, and determined to serve my community I embarked on a service year inspiring children to learn, securing food for hungry families, and using my fluency with technology to boost the capacity of Community Action Network.</h4>
+            <div class="arrow"></div>
+          </div>
+        </div>
+
+        <div class="date-disc">
+          <h2 class="date">2016</h2>
+          <div class="bio-box">
+            <h3>Web Development Adventures</h3>
+            <h4>Inspired to overhaul the Washtenaw Area Council for Children's website, I taught myself the HTML and CSS skills necessary to actualize my goal. Along the way I discovered a passion for development and pursued formal education to broaden my skills.</h4>
+            <div class="arrow"></div> 
+          </div>
+      </div>
+
+      <div class="date-disc">
+          <h2 class="date">2018</h2>
+          <div class="bio-box">
+            <h3>Seattle</h3>
+            <h4>With a few websites under my belt and a growing library of digital choose your own adventure games, I'm eager to do more and excited to see what unfolds next!</h4>
+            <div class="arrow"></div> 
+          </div>
+      </div>
+      <div class="down-arrow"></div>
+    </div>
+    </main>
+  </div>
+  <footer>
+      <p>Dylan Kite &copy; <span id="year"></span></p>
+  </footer>
+  <script src = '../js/jquery-3.2.1.js'></script>
+  <script src="../js/gallery.js"></script>
+
+  <script>
+    var d = new Date();
+    var n = d.getFullYear();
+    
+    function year(){
+      document.getElementById("year").innerHTML = n;
+    }
+
+    year();
+</script>
+</body>
+</html>

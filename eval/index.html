@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>WEB 210 Evaluation Project</title>
+		
+	<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+	<!--[if lt IE 9]>
+    	<script>
+    		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+    		var len = elementsArray.length;
+    		for(i = 0; i < len; i++){
+    			document.createElement(elementsArray[i]);
+    		}
+    	</script>
+	<![endif]-->
+
+	<!--CSS style sheet goes here-->
+  <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="wrapper">
+    <header>
+    <div id="logo">
+      <h1>LOGO</h1>
+    </div>
+      <p>we know <span>the secrets of success</span></p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li><!--
+        --><li><a href="#">About</a></li><!--
+        --><li><a href="#">Services</a></li><!--
+        --><li><a href="#">Solutions</a></li><!--
+        --><li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="opener">
+        <div>
+          <h2>discover the</h2>
+          <h2>for your success</h2>
+          <h1>business <span>secrets</span></h1>
+        </div>
+        <img src="images/business-success.png" width="1920" height="1443" alt="Graphic of man jumping for joy over increased profits">
+      </div>
+      <div id="testimonials">
+        <h2>Testimonials</h2>
+        
+        <div class="col1">
+          <h3>Great Service</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        </div>
+        <div class="col2">
+          <h3>Increased Profits</h3>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+        </div>
+      </div>
+      <div id="resources">
+        <div class="quarter">
+          <h2>new solutions</h2>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+          </ul>
+        </div>
+        <div class="quarter">
+          <h2>popular services</h2>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+          </ul>
+        </div>
+        <div class="quarter">
+          <h2>press releases</h2>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+          </ul>
+        </div>
+        <div class="quarter">
+          <h2>contact us</h2>
+          <form method="get">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name">
+            <label for="email">Email:</label> 
+            <input id="email" type="text" name="email"> 
+            <label for="subject">Subject:</label>
+            <input id="subject" type="text" name="subject">
+            <label for="message">Message:</label>
+            <textarea id="message" name="subject"></textarea>
+            <input type="submit" value="Send Message">
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>WEB210 EVALUATION PROJECT &copy; 2016</footer>
+    </div><!--End Wrapper-->
+  </body>
+</html>
