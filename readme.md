@@ -14,4 +14,4 @@
 ## Screenshots
 ![Navigation for dylankite.com](./screenshots/screenshot1.gif)
 ![CSS3 animation to showcase web design](./screenshots/screenshot2.gif)
-![Vanilla JS modals to showcase graphic design work](./screenshtos/screenshot3.gif)
+![Vanilla JS modals to showcase graphic design work](./screenshots/screenshot3.gif)
